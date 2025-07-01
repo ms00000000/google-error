@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Erreur - Google Sheets</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #202124;
+    padding: 40px;
+  }
+  h1 {
+    font-weight: 400;
+    color: #d93025;
+  }
+  p {
+    font-size: 16px;
+  }
+  a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .container {
+    max-width: 600px;
+    margin: auto;
+  }
+  .buttons a {
+    margin-right: 20px;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Impossible d’ouvrir ce fichier</h1>
+    <p>Le propriétaire a dépassé la limite de stockage et ce fichier ne peut pas être affiché.</p>
+    <p>Essayez de contacter le propriétaire pour résoudre ce problème.</p>
+    <div class="buttons">
+      <a href="#" onclick="alert('Demande d’accès envoyée !');return false;">Contacter le propriétaire</a>
+      <a href="#" onclick="history.back();return false;">Retour à la page précédente</a>
+    </div>
+  </div>
+</body>
+</html>
