@@ -3,47 +3,58 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Erreur - Google Sheets</title>
+<title>Google Sheets - Erreur</title>
 <style>
   body {
     font-family: Arial, sans-serif;
     background: #fff;
     color: #202124;
-    padding: 40px;
+    margin: 40px auto;
+    max-width: 650px;
+    padding: 0 20px;
   }
-  h1 {
-    font-weight: 400;
-    color: #d93025;
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  .logo img {
+    height: 40px;
+    width: 40px;
+  }
+  h2 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
   }
   p {
-    font-size: 16px;
+    font-size: 14px;
+    margin-top: 0;
+  }
+  .box {
+    border: 1px solid #c9daf8;
+    background-color: #e8f0fe;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 13px;
+    line-height: 1.4;
   }
   a {
-    color: #1a73e8;
+    color: #1967d2;
     text-decoration: none;
-    font-weight: 500;
   }
   a:hover {
     text-decoration: underline;
   }
-  .container {
-    max-width: 600px;
-    margin: auto;
-  }
-  .buttons a {
-    margin-right: 20px;
-  }
 </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Impossible d’ouvrir ce fichier</h1>
-    <p>Le propriétaire a dépassé la limite de stockage et ce fichier ne peut pas être affiché.</p>
-    <p>Essayez de contacter le propriétaire pour résoudre ce problème.</p>
-    <div class="buttons">
-      <a href="#" onclick="alert('Demande d’accès envoyée !');return false;">Contacter le propriétaire</a>
-      <a href="#" onclick="history.back();return false;">Retour à la page précédente</a>
-    </div>
+  <div class="logo">
+    <img src="https://ssl.gstatic.com/docs/doclist/images/infinite_arrow_favicon_5.ico" alt="Google Sheets">
+    <span style="font-size: 20px; font-weight: 600;">Google Sheets</span>
   </div>
-</body>
-</html>
+  
+  <h2>Désolé, le fichier que vous avez demandé a été supprimé.</h2>
+
+
